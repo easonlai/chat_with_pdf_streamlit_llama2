@@ -23,5 +23,5 @@ Both the Embedding and LLM (Llama 2) models can be downloaded and run on your lo
 streamlit run app.py
 ```
 
-Enjoy!
+**Enjoy!**
 
