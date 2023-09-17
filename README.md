@@ -4,7 +4,7 @@ In this repository, you will discover how [Streamlit](https://streamlit.io/), a 
 
 I referred to Andrew Ng's book, "[Machine Learning Yearning](https://info.deeplearning.ai/machine-learning-yearning-book)" to embed data in the local [Chroma](https://www.trychroma.com/) vector database. This allows us to perform similarity searches on user inquiries from the database. We can then use the Llama 2 model to summarize the results and provide feedback to the user.
 
-
+![alt text](https://github.com/easonlai/chat_with_pdf_streamlit_llama2/blob/main/git-images/git-image-1.png)
 
 **To run this Streamlit web app**
 ```
