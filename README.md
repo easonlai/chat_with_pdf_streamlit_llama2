@@ -6,9 +6,9 @@ I referred to Andrew Ng's book, "[Machine Learning Yearning](https://info.deeple
 
 Both the Embedding and LLM (Llama 2) models can be downloaded and run on your local machine. This allows for use in private environments without an internet connection. However, it is recommended to have a relatively powerful machine, ideally with a GPU, to achieve higher response performance when running Llama 2.
 
-* preprocess_chroma.ipynb <-- Example of using Embedding Model from Open-Source Embedding Model ("sentence-transformers/all-MiniLM-L6-v2") in Hugging Face to embed the content from the document and save it into Chroma vector database.
-* consume_chroma.ipynb <-- Example of using LangChain question-answering module to perform similarity search from the Chroma vector database and use the Llama 2 model to summarize the result.
-* app.py <-- Example of using Streamlit, LangChain, and Chroma vector database to build an interactive chatbot to facilitate the semantic search over documents. It uses the Llama 2 model for result summarization and chat.
+* [preprocess_chroma.ipynb](https://github.com/easonlai/chat_with_pdf_streamlit_llama2/blob/main/preprocess_chroma.ipynb) <-- Example of using Embedding Model from Open-Source Embedding Model ("sentence-transformers/all-MiniLM-L6-v2") in Hugging Face to embed the content from the document and save it into Chroma vector database.
+* [consume_chroma.ipynb](https://github.com/easonlai/chat_with_pdf_streamlit_llama2/blob/main/consume_chroma.ipynb) <-- Example of using LangChain question-answering module to perform similarity search from the Chroma vector database and use the Llama 2 model to summarize the result.
+* [app.py](https://github.com/easonlai/chat_with_pdf_streamlit_llama2/blob/main/app.py) <-- Example of using Streamlit, LangChain, and Chroma vector database to build an interactive chatbot to facilitate the semantic search over documents. It uses the Llama 2 model for result summarization and chat.
 
 
 ![alt text](https://github.com/easonlai/chat_with_pdf_streamlit_llama2/blob/main/git-images/git-image-1.png)
