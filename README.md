@@ -8,6 +8,7 @@ Both the Embedding and LLM (Llama 2) models can be downloaded and run on your lo
 
 * [preprocess_chroma.ipynb](https://github.com/easonlai/chat_with_pdf_streamlit_llama2/blob/main/preprocess_chroma.ipynb) <-- Example of using Embedding Model from Open-Source Embedding Model ("sentence-transformers/all-MiniLM-L6-v2") in Hugging Face to embed the content from the document and save it into Chroma vector database.
 * [consume_chroma.ipynb](https://github.com/easonlai/chat_with_pdf_streamlit_llama2/blob/main/consume_chroma.ipynb) <-- Example of using LangChain question-answering module to perform similarity search from the Chroma vector database and use the Llama 2 model to summarize the result.
+* [consume_chroma.ipynb](https://github.com/easonlai/chat_with_pdf_streamlit_llama2/blob/main/consume_chroma_apple_silicon.ipynb) <-- Example of using LangChain question-answering module to perform similarity search from the Chroma vector database and use the Llama 2 model to summarize the result. Special version of Apple Silicon chip for GPU Acceleration (Tested work in MBA M2 2022).
 * [app.py](https://github.com/easonlai/chat_with_pdf_streamlit_llama2/blob/main/app.py) <-- Example of using Streamlit, LangChain, and Chroma vector database to build an interactive chatbot to facilitate the semantic search over documents. It uses the Llama 2 model for result summarization and chat.
 
 
